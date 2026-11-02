@@ -1,0 +1,20 @@
+# Reference repositories kept locally but not published in this learning repo
+/spec-kit/
+/Spec_driven_development_QuickStart/
+
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
